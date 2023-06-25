@@ -1,6 +1,6 @@
 # Azure DevOps Artifacts
 
-In this project I have set up an Azure pipeline where the source code is fetched from Azure Repos, Pipeline was set up to have multiple tasks.
+In this project I have set up an Azure pipeline where the source code is fetched from Azure Repos and have multiple tasks.
 
 The pipeline is executed on an agent where I have made use of an EC2 Ubuntu machine to run the jobs.
 
