@@ -1,7 +1,7 @@
-AZURE ARTIFACTS
+AZURE ARTIFACTS 
 
 
-2GB of storage for it using free subscriptions
+We will be getting 2GB of artifacts storage when using free subscriptions
 
 Feed - Storage Repo
 
