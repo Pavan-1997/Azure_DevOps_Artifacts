@@ -100,10 +100,10 @@
 ![kudo](https://github.com/Pavan-1997/Azure_DevOps_Artifacts/assets/32020205/2e06b328-f2eb-4c48-9082-92f0b69cd346)
 
 ```
-    cd site/wwwroot/
+cd site/wwwroot/
 ```
 ``` 
-    ls -lrt
+ls -lrt
 ```
 
 ![kudo-ssh](https://github.com/Pavan-1997/Azure_DevOps_Artifacts/assets/32020205/ce4d6431-0061-4489-b212-ddf8798896c9)
