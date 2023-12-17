@@ -19,31 +19,31 @@ Feed - Storage Repo
 
 1. Create a new feed
 
-  Select Members of <Organization-name> and click on create
-  
-  Now you should see two feeds 
+    Select Members of <Organization-name> and click on create
+    
+    Now you should see two feeds 
 
 
 2. Click on Connect to feed
-
-  Select Maven -> In options add -DskipTests=true
   
-  Copy the first section of repo
+    Select Maven -> In options add -DskipTests=true
+    
+    Copy the first section of repo
+    
+    Now go to POM.XML file in the repo and add the copied repo after dependencies tag in it with both  <repositories> and <distributionManagement> tags 
   
-  Now go to POM.XML file in the repo and add the copied repo after dependencies tag in it with both  <repositories> and <distributionManagement> tags 
-
 
 3. Create a new pipeline
 
-  Now in Agent job 1 select the Agent pool created earlier
-  
-  Select branch - main -> Select Maven and in Goal - deploy
-  
-  Add another task for authentication of Maven i.e Maven Authenticate
-  
-  In Maven Authenticate -> Select the Feeds 
-  
-  Now for credentials click on Manage -> Click on New service connection -> Click on Maven -> Select Authentication method - Authentication token ->  Give Repoditory URL from Step 2 3rd line -> Give Repoditory Id from the same - azure-artifacts -> Create a PAT and give -> Finally give name to the service connection and click on Save and queue
+    Now in Agent job 1 select the Agent pool created earlier
+    
+    Select branch - main -> Select Maven and in Goal - deploy
+    
+    Add another task for authentication of Maven i.e Maven Authenticate
+    
+    In Maven Authenticate -> Select the Feeds 
+    
+    Now for credentials click on Manage -> Click on New service connection -> Click on Maven -> Select Authentication method - Authentication token ->  Give Repoditory URL from Step 2 3rd line -> Give Repoditory Id from the same - azure-artifacts -> Create a PAT and give -> Finally give name to the service connection and click on Save and queue
 
 If getting below the error 
 
