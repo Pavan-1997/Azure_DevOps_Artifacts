@@ -43,7 +43,7 @@
 
 6. Now go back to the Azure Devops portal in the project created -> Click on Pipelines on the left -> Click on Create pipeline -> Select Azure Repos Git -> Select the Repo -> Click on Starter pipeline
 
-    Copy the pipeline code in the Repo with name Artifacts.yml 
+    Copy the pipeline code in the Repo with name PROJECT2_ARTIFACTS.yml 
     
     To create a feed -> Click on Artifacts on the left -> Click on + Create Feed -> Name - day7-nike-feed -> Click on Create -> Click on the Feed Settings -> Click on Permissions tab
     
