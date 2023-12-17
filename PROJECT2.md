@@ -24,15 +24,15 @@
 
 5. Now click on  Go to resource -> Click on Configuration on the left -> Click on + New application setting
 
-    Name - WEBSITE_DYNAMIC_CACHE
+    Name - `WEBSITE_DYNAMIC_CACHE`
     
-    Value - 0
+    Value - `0`
     
     Click on Ok
     
-    Name - WEBSITE_ENABLE_SYNC_UPDATE_SITE
+    Name - `WEBSITE_ENABLE_SYNC_UPDATE_SITE`
     
-    Value - never
+    Value - `never`
     
     Click on Ok
     
@@ -66,7 +66,7 @@
     
     Now click on Run on Agent -> Agent Pool - Select the Self runner
     
-    Now click on Deploy Azure App Service -> Package or folder - $(System.DefaultWorkingDirectory)/_nike-2-0 -> Runtime Stack - 1.0 (STATICSITE|1.0) -> Post Deployment Action - (Deployment script type - Inline Script, Inline Script - cp -rf /home/site/wwwroot/package/* /home/site/wwwroot/)
+    Now click on Deploy Azure App Service -> Package or folder - $(System.DefaultWorkingDirectory)/_nike-2-0 -> Runtime Stack - 1.0 (STATICSITE|1.0) -> Post Deployment Action - (Deployment script type - Inline Script, Inline Script - `cp -rf /home/site/wwwroot/package/* /home/site/wwwroot/`)
     
     Now click on Save
 
@@ -74,8 +74,11 @@
 8. Go to the Azure Artifacts -> Select the Package -> Cick on Promote on the top -> Select a view - day7-nike-feed@Prerelease -> Click on Promote
 
 
-9. Now go back to the Azure Devops portal in the project created -> Go to the App Service created -> Click on the Advance Tools on the left -> Click on Go -> Click on SSH -> 
-
-    cd site/wwwroot/
+9. Now go back to the Azure Devops portal in the project created -> Go to the App Service created -> Click on the Advance Tools on the left -> Click on Go -> Click on SSH ->
     
+```
+    cd site/wwwroot/
+```
+``` 
     ls -lrt
+```
