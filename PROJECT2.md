@@ -4,7 +4,7 @@
 2. Click on + New project -> Project name - Day7_Artifacts -> Click on Create
 
 
-3. Go to the Repos on the left -> Click on Import a repository -> Clone URL - <> -> Click on Import
+3. Go to the Repos on the left -> Click on Import a repository -> Clone URL - `https://github.com/Pavan-1997/Azure_DevOps_Artifacts.git` -> Click on Import
 
 
 4. Now go to the Azure portal -> Search and open the App Services -> Click on + Create -> Select + Web App 
